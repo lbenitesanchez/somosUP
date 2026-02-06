@@ -6,7 +6,11 @@ Variables:
 - metrico_principal: indicador principal por segmento.
 - costo_mensual: S/ por rubro.
 """
+import sys
 from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+sys.path.append(str(ROOT_DIR))
 import numpy as np
 import pandas as pd
 from common.utils import set_seed, month_range, save_csv

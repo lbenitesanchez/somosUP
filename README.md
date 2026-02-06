@@ -29,3 +29,5 @@ streamlit run dashboard.py
 ## Nota
 
 Todas las empresas y cifras son ficticias y referenciales.
+
+> Nota: si ejecutas los scripts desde una subcarpeta `casos/caso_XX_*`, asegúrate de hacerlo desde la raíz del repo o mantener la estructura para que se encuentre el módulo `common/`.

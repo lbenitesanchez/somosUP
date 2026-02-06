@@ -1,4 +1,8 @@
+import sys
 from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+sys.path.append(str(ROOT_DIR))
 import pandas as pd
 import streamlit as st
 from common.plotting import line_chart, bar_chart, pie_chart, decision_chart
